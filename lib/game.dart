@@ -140,6 +140,9 @@ class _GameState extends State<Game> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Tic Tac Toe Game'),
+      ),
       body: SafeArea(
         child: Center(
           child: Column(
